@@ -1,8 +1,10 @@
-  ##AMYPred-FRL
+## AMYPred-FRL
 
 AMYPred-FRL is a novel approach to accurately predict amyloid proteins using feature representation learning. In this research study, we combined six well-known ML algorithms with ten different sequence descriptors to generate generate 60 probabilistic features (PFs), as opposed to state-of-the-art methods developed by the single feature-based approach.  Logistic Regression Recursive Characteristic Elimination (LR-RFE) method is used to find the optimal number of m feature from 60 PF to improve prediction efficiency. Finally, the 20 selected PFs were feed into the random forest method using a meta-predictor approach to construct the final model
 
-###AMYPred-FRL uses the following dependencies:
+### AMYPred-FRL uses the following dependencies:
+The first part of the readme is from the original repository.
+
 Installation
 
 Download AMYPred-FRL by
@@ -36,17 +38,20 @@ The ‘Blind_test’ file contains the code for getting Blind dataset results.
 5. model_test
 The ‘model_test’ file contains code for evaluation the prediction ability of the model on existing indpendent data.
 
-###Guiding principles: 
+### Guiding principles: 
 
-**The dataset file contains  TR_P_132.fasta, TR_N_305.fasta, TS_P_33.fasta, TS_N_77.fasta.
+The dataset file contains  TR_P_132.fasta, TR_N_305.fasta, TS_P_33.fasta, TS_N_77.fasta.
 
-script test
-#####################
-To check whether the project can work normally, we can run
+__________________________________________________________________________________________________________________________________________________
 
-Stand_alone_AmyPredFRL using pycharm
+## This version of AMYPred-FRL
 
-To check blind dataset sequnces try Blind_test.py
+Additional inline comments and descriptions have been added to the jupyter notebook.
+
+There are two options to run the model. 
+1. Import protein sequences in fasta format.
+2. Input a single protein sequence as a string.
+
 
  
 
